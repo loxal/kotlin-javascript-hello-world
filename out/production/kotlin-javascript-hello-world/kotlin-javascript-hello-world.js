@@ -7,6 +7,11 @@
           HelloWorld: Kotlin.createClass(null, null),
           main: function (args) {
             Kotlin.println('JavaScript generated through Kotlin');
+            _.com.example.kotlin.sayHelloViaDom();
+          },
+          sayHelloViaDom: function () {
+            var container = document.getElementById('container');
+            container.textContent = 'Hello, DOM!';
           }
         })
       })
