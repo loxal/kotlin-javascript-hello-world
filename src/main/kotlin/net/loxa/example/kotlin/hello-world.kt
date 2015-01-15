@@ -1,4 +1,4 @@
-package com.example.kotlin
+package net.loxal.example.kotlin
 
 import kotlin.js.dom.html.document
 import org.w3c.dom.Element
