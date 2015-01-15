@@ -11,12 +11,12 @@
             main: function (args) {
               Kotlin.println('JavaScript generated through Kotlin');
               _.net.loxal.example.kotlin.sayHelloViaDom();
-              _.net.loxal.example.kotlin.sayHelloViaInlinedJavaSript();
+              _.net.loxal.example.kotlin.sayHelloViaInlinedJavaScript();
             },
             sayHelloViaDom: function () {
               _.net.loxal.example.kotlin.container.textContent = 'Hello, DOM! Kotlin is writing...';
             },
-            sayHelloViaInlinedJavaSript: function () {
+            sayHelloViaInlinedJavaScript: function () {
               document.writeln('Hello, from inlined JavaScript in Kotlin!');
             }
           })

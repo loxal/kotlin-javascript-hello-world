@@ -28,13 +28,13 @@ fun main(vararg args: String) {
     println("JavaScript generated through Kotlin")
 
     sayHelloViaDom()
-    sayHelloViaInlinedJavaSript()
+    sayHelloViaInlinedJavaScript()
 }
 
 private fun sayHelloViaDom() {
     container.textContent = "Hello, DOM! Kotlin is writing..."
 }
 
-private fun sayHelloViaInlinedJavaSript() {
+private fun sayHelloViaInlinedJavaScript() {
     js("document.writeln('Hello, from inlined JavaScript in Kotlin!')")
 }
