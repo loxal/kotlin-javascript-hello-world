@@ -17,12 +17,12 @@
 package net.loxal.example.kotlin
 
 import kotlin.js.dom.html.document
-import org.w3c.dom.Element
+import kotlin.js.dom.html.HTMLElement
 
 public class HelloWorld {
 }
 
-val container: Element = document.getElementById("container")
+val container = document.getElementById("container") as HTMLElement
 
 fun main(vararg args: String) {
     println("JavaScript generated through Kotlin")
