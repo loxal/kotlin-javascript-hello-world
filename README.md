@@ -1,4 +1,4 @@
-# Kotlin JavaScript ”Hello, world!”
+# Kotlin JavaScript: ”Hello, world!”
 Kotlin (JavaScript) Template with a simple “Hello, World!” output written to the JavaScript Console
 
 ## Getting Started
