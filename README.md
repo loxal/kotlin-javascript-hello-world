@@ -7,5 +7,5 @@ Kotlin (JavaScript) Template with a simple “Hello, World!” output written to
 	* Run > “Run Hello World”
 2. Rebuild Project
 	* Build > Rebuild Project
-3. Reload the “index.html” app container page inside the browser *\<PROJECT_ROOT>/out/production/kotlin-javascript-hello-world/index.html*
+3. Reload the “index.html” app container page inside the browser */<PROJECT_ROOT>/out/production/kotlin-javascript-hello-world/index.html*
 
