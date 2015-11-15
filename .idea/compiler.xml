@@ -25,5 +25,8 @@
         <module name="kotlin-javascript-hello-world" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kotlin-javascript-hello-world" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -16,8 +16,8 @@
 
 package net.loxal.example.kotlin
 
-import kotlin.js.dom.html.document
-import kotlin.js.dom.html.HTMLElement
+import org.w3c.dom.HTMLElement
+import kotlin.browser.document
 
 public class HelloWorld {
 }
