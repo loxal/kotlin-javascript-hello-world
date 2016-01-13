@@ -1,5 +1,5 @@
 /*
- * Copyright 2015 Alexander Orlov <alexander.orlov@loxal.net>
+ * Copyright 2016 Alexander Orlov <alexander.orlov@loxal.net>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,12 @@ fun main(vararg args: String) {
     println("JavaScript generated through Kotlin")
 
     sayHelloViaDom()
+    sayHelloViaJsConsole()
     sayHelloViaInlinedJavaScript()
+}
+
+private fun sayHelloViaJsConsole() {
+    console.log("Hi!")
 }
 
 private fun sayHelloViaDom() {

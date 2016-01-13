@@ -16,15 +16,20 @@
         <CLASSES>
           <root url="kotlin-js-meta://$MODULE_DIR$/lib/kotlin-jslib.jar!/" />
           <root url="kotlin-js-meta://$MODULE_DIR$/lib/kotlin-jslib.jar!/" />
+          <root url="kotlin-js-meta://$MODULE_DIR$/lib/kotlin-jslib.jar!/" />
+          <root url="kotlin-js-meta://$MODULE_DIR$/lib/kotlin-jslib.jar!/" />
           <root url="kotlin-js-meta://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-js-library/1.0.0-beta-2422/kotlin-js-library-1.0.0-beta-2422.jar!/" />
+          <root url="kotlin-js-meta://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-js-library/1.0.0-beta-4584/kotlin-js-library-1.0.0-beta-4584.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/kotlin-jslib-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/lib/kotlin-jslib-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/kotlin-jslib-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/kotlin-jslib-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jetbrains.kotlin:kotlin-js-library:1.0.0-beta-2422" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jetbrains.kotlin:kotlin-js-library:1.0.0-beta-4584" level="project" />
   </component>
 </module>
