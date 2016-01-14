@@ -33,11 +33,11 @@ fun main(vararg args: String) {
 }
 
 private fun sayHelloViaJsConsole() {
-    console.log("Hi!")
+    console.log("Hello from `console.log()`!")
 }
 
 private fun sayHelloViaDom() {
-    container.textContent = "Hello, DOM! Kotlin is writing..."
+    container.textContent = "Hello, DOM! Kotlin is writing…"
 }
 
 private fun sayHelloViaInlinedJavaScript() {
