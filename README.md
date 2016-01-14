@@ -3,13 +3,15 @@ Kotlin (JavaScript) Template with a simple “Hello, World!” output written to
 
 ## Getting Started
 
+### Run using Maven
+
+* mvn kotlin:js 
+
+### Run using IntelliJ IDE
+
 1. Run the “Run Hello World” Configuration:
 	* Run > “Run Hello World”
 2. Rebuild Project
 	* Build > Rebuild Project
 3. Reload the “index.html” app container page inside the browser */<PROJECT_ROOT>/out/production/kotlin-javascript-hello-world/index.html*
-
-## Run using Maven
-
-* mvn kotlin:js 
 
