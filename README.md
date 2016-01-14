@@ -9,3 +9,7 @@ Kotlin (JavaScript) Template with a simple “Hello, World!” output written to
 	* Build > Rebuild Project
 3. Reload the “index.html” app container page inside the browser */<PROJECT_ROOT>/out/production/kotlin-javascript-hello-world/index.html*
 
+## Run using Maven
+
+* mvn kotlin:js 
+

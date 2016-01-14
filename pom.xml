@@ -34,11 +34,12 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-js-library</artifactId>
             <version>${kotlin.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
     <build>
+        <!--<sourceDirectory>src/main/resource</sourceDirectory>-->
         <sourceDirectory>src/main/kotlin</sourceDirectory>
         <plugins>
             <plugin>
