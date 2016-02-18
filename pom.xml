@@ -26,7 +26,7 @@
     <description>Kotlin Example Project</description>
 
     <properties>
-        <kotlin.version>1.0.0-beta-4584</kotlin.version>
+        <kotlin.version>1.0.0</kotlin.version>
     </properties>
 
     <dependencies>

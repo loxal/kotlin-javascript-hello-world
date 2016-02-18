@@ -19,9 +19,6 @@ package net.loxal.example.kotlin
 import org.w3c.dom.HTMLElement
 import kotlin.browser.document
 
-public class HelloWorld {
-}
-
 val container = document.getElementById("container") as HTMLElement
 
 fun main(vararg args: String) {
