@@ -16,18 +16,5 @@
 
 package net.loxal.example.kotlin
 
-fun main(vararg args: String) {
-    println("JavaScript generated through Kotlin")
-
-    Component.sayHelloViaDom()
-    sayHelloViaJsConsole()
-    sayHelloViaInlinedJavaScript()
-}
-
-private fun sayHelloViaJsConsole() {
-    console.log("Hello from `console.log()`!")
-}
-
-private fun sayHelloViaInlinedJavaScript() {
-    js("document.writeln('Hello, from inlined JavaScript in Kotlin!')")
+class ComponentTest {
 }

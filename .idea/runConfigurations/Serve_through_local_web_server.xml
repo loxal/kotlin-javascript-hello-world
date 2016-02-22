@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Serve through local web server" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/kotlin-javascript-hello-world/target/production/kotlin-javascript-hello-world/index.html">
+  <configuration default="false" name="Serve through local web server" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/kotlin-javascript-hello-world/target/classes/main.html">
     <RunnerSettings RunnerId="JavascriptDebugRunner" />
     <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
     <method>

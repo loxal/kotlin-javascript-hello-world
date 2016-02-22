@@ -16,18 +16,13 @@
 
 package net.loxal.example.kotlin
 
-fun main(vararg args: String) {
-    println("JavaScript generated through Kotlin")
+import org.w3c.dom.HTMLElement
+import kotlin.browser.document
 
-    Component.sayHelloViaDom()
-    sayHelloViaJsConsole()
-    sayHelloViaInlinedJavaScript()
-}
+object Component {
+    val container = document.getElementById("container") as HTMLElement
 
-private fun sayHelloViaJsConsole() {
-    console.log("Hello from `console.log()`!")
-}
-
-private fun sayHelloViaInlinedJavaScript() {
-    js("document.writeln('Hello, from inlined JavaScript in Kotlin!')")
+    fun sayHelloViaDom() {
+        container.textContent = "Hello, DOM! Kotlin is writing…"
+    }
 }

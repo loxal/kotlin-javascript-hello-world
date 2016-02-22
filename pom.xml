@@ -23,7 +23,7 @@
     <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
     <name>Example</name>
-    <description>Kotlin Example Project</description>
+    <description>Kotlin Template Project</description>
 
     <properties>
         <kotlin.version>1.0.0</kotlin.version>
